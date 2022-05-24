@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품 주문서</title>
+  <link href="css/상품주문서.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+  <form>
+      <h1>상품주문서</h1>
+      <fieldset>
+        <legend>개인 정보</legend>
+        <ul>
+          <li>
+            <label for="name" class="main">이름</label>
+            <input id="name" type="text" placeholder="여백없이 입력" autofocus required>
+            <!--자동커서 autofocus, 무조건 입력 required-->
+          </li>
+          <li>
+            <label for="연락처" class="main">연락처</label>
+            <input id="연락처" type="tel" placeholder="연락가능한 연락처">
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>배송지 정보</legend>
+        <ul>
+          <li>
+            <label for="add" class="main">주소</label>
+            <input id="add" size="40" type="text" required>
+          </li>
+          <li>
+            <label for="phone" class="main">전화번호</label>
+            <input id="phone" type="tel" required>
+          </li>
+          <li>
+            <label for="ment" class="main">메모</label>
+            <textarea cols="40" rows="3" id="ment"></textarea> <!--cols는 가로너비 rows세로길이 textarea는 여러 줄 입력란-->
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>주문 정보</legend>
+        <ul>
+          <li>
+            <label><input type="checkbox">경북성주 참외(5kg)
+            <input type="number" value="0" min="0" max="99">박스</label>
+          </li>
+          <li>
+            <label><input type="checkbox">경북영천 포도(5kg)
+            <input type="number" value="0" min="0" max="99">박스</label>
+          </li>
+          <li>
+            <label><input type="checkbox">경북봉화 수박(5kg)
+            <input type="number" value="0" min="0" max="99">박스</label>
+          </li>
+        </ul>
+      </fieldset>
+      
+      <div class="oder">
+        <input type="submit" value="주문하기">
+        <input type="reset" value="다시작성">
+      </div>
+      
+    </form>
+  </div>
+</body>
+
+</html>
