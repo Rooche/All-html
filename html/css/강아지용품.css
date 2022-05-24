@@ -1,0 +1,181 @@
+body{
+  font-family: "맑은 고딕","고딕","굴림";
+  width: 960px;
+  margin: 0 auto;
+}
+
+nav a:visited{
+  font-size: 14px;
+  padding: 10px;
+}
+
+nav a:hover{ /*border bottom을 줘서 밑에 일자로 나오게 만듬*/
+  border-bottom: 1px solid;
+}
+
+nav a:active{
+  background-color: red;
+}
+
+nav a:focus{
+  background-color: aqua;
+  color: blue;
+}
+
+header{
+  background: pink;
+  height: 100px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20;/*글자하고 붙지않게 하기 위해서 패딩*/
+  margin: 40px; /*마진값을 크게 줘서 중앙쯤에 위치*/
+}
+
+nav a{
+  text-decoration: none; /*밑줄 없애기*/
+  color: white;
+  font-weight: bold;
+  font-size: 18;
+}
+
+h1{
+  padding-left: 10px;
+}
+
+/*section*/
+section{
+  width: 740px;
+  padding: 10px;
+  float: left;
+}
+
+article{
+  width: 320px;
+  height: 270px;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+}
+
+.atl1 p::first-line{ /*첫번째 줄에만*/
+  color: blue;
+}
+
+article:nth-child(1){ /*자식요소를 사용하여 첫번째 자식만 색깔 변경*/
+  background-color: pink;
+}
+
+article:nth-child(3){
+  background-color: aqua;
+}
+
+.atl1::first-letter{ /*첫번째 글자에만*/
+  color: red;
+}
+
+p::selection{ /*드래그 했을때 색상*/
+  color: pink;
+  background-color: #020715;
+}
+
+h1::before{
+  content:url(img/티즈.png);
+  margin-right: 10px;
+}
+
+h1::after{
+  content: "NEW";
+  background-color: yellow;
+  padding: 5px;
+  font-size: small;
+  border-radius: 5px;
+  margin-left: 10px;
+  position: relative;
+  top:-30px;
+}
+
+/*aside*/
+aside{
+  width: 200px;
+  float: right;
+}
+
+aside img{
+  width: 195px;
+  height: 200px;
+}
+/*footer*/
+footer{
+  clear: both;
+  padding: 10px;
+  background: #020715;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+/*    body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #020715;
+}
+
+header li {
+  display: inline-block;
+}
+
+a {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+article {
+  float: left;
+  border: 1px solid #000;
+  width: 330px;
+  height: 270px;
+  padding: 10px;
+  margin: 10px;
+}
+
+article p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+section {
+  width: 750px;
+  float: left;
+}
+
+aside img {
+  width: 150px;
+}
+
+aside {
+  width: 180px;
+  float: right;
+  text-align: right;
+  padding-top: 10px;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  background-color: #020715;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+} */

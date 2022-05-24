@@ -1,0 +1,153 @@
+/*a{
+  text-decoration: none;
+}
+
+p{
+  text-align: right;
+}*/
+body{
+  font-family: "맑은 고딕","고딕","굴림";
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #020715;
+  height: 100px;
+  /*      padding: 10px;
+  margin-bottom: 20px;
+  text-align: right; */
+}
+
+/*header{
+  width: 80%;
+  margin: 0 auto; 
+  text-align: right; 
+  padding: 10px;
+  background-color: #020715;
+}*/
+
+nav {
+  width: 600px;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  /*글자 사이즈 증가*/
+  font-weight: bold;
+  /*글자 진하게*/
+}
+
+/*header a{
+  color: white;
+}
+
+body{
+  width: 60%;
+  margin: 0 auto;
+}*/
+section {
+  padding: 10px;
+}
+
+section p {
+  text-align: right;
+  margin-right: 10px;
+}
+
+#anchor {
+ text-align: center;
+}
+
+
+#anchor li {
+  display: inline-block;
+} 
+
+#anchor a {
+   text-decoration: none;
+}
+
+article {
+  padding: 10px;
+}
+
+/*section nav{
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px;
+  
+}
+ section{
+   width: 80%;
+   margin: 0 auto;
+   border: 5px solid #eee;
+   padding:5px;
+ }*/
+
+/*section article{
+   border-radius: 20px 70px;
+  border-width: medium;
+ }*/
+
+.one {
+  border: 1px solid pink;
+  border-radius: 20px;
+  /*테두리 둥글게 만들기*/
+}
+
+.two {
+  border: 1px dotted pink;
+  border-radius: 10px;
+}
+
+.th {
+  border: 1px solid pink;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+figcaption,figure {
+  /*확실하진 않지만 스페이스바만 누르면 어디어디 어디어디쪽 한다는 얘기고 ,를 사용하면 AND개념으로 생각하면 될거같다*/
+  text-align: center;
+}
+
+aside{
+  padding:10px;
+  background-color: pink;
+}
+
+
+footer{
+  padding: 10px;
+  background: #020715;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+/*footer p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #020715;
+  color: white;
+}*/

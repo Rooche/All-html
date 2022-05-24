@@ -1,0 +1,37 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+label.main {
+  font-weight: bold;
+  width: 80px;
+  float: left;
+}
+
+fieldset {
+  margin: 15px 10px;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 18px;
+  color: pink;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.oder{
+  text-align: center;
+}

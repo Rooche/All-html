@@ -1,0 +1,73 @@
+body {
+  /*바디안에 있는 모든 글꼴을 바꾸기 위해서 바디로 잡음*/
+  font-family: "맑은 고딕", "고딕", "굴림";
+}
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+/*hrader*/
+header {
+  background-color: #020715;
+  height: 100px;
+  /*      padding: 10px;
+margin-bottom: 20px;
+text-align: right; */
+}
+header h1 {
+  width: 300px;
+  padding: 10px 10px 10px 30px;
+  float: left;
+  color: white;
+}
+nav {
+  width: 600px;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 12px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  /*글자 사이즈 증가*/
+  font-weight: bold;
+  /*글자 진하게*/
+}
+
+/*section*/
+section {
+  padding: 10px;
+  margin-bottom: 30px  ;
+}
+article{
+  line-height: 45px;
+}
+#at1 ul{
+  list-style: square;
+}
+#at2 ol{
+  list-style: upper-roman;
+}
+
+article img{
+  padding: 10px;
+  float: right;
+  width: 250px;
+  height: 500px;
+}
+
+footer {
+  clear: both;
+  padding: 10px;
+  background-color: #020715;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}

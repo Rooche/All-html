@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+ #container{
+      border: 1px solid #000; /*테두리*/
+      width : 960px; /*너비*/
+      padding: 20px; /*안여백*/
+      margin: 0 auto; /*아래 요소와 간격*/
+    }
+
+    header{
+      border: 1px solid #555; /*테두리*/
+      padding: 10px; /*안여백*/
+      margin-bottom: 20px; /**/
+    }
+
+    section{
+      border: 1px solid #777;
+      width: 384px; /*너비*/
+      padding: 20px; /*안여백*/
+      float: left; /*왼쪽으로*/
+      margin-bottom: 20px; /*아래 요소와 간격*/
+      margin: 0 5px;
+    }
+
+    #left{
+      border: 1px solid #999;
+      width: 220px; /*너비*/
+      padding : 20px; /*안여백*/
+      float: left; /*오른쪽으로*/
+      margin-bottom: 20px; /*아래 요소와 간격*/
+      background-color: pink; /*배경색*/
+    }
+
+    #right{
+      border: 1px solid #999;
+      width: 220px; /*너비*/
+      padding : 20px; /*안여백*/
+      float: right; /*오른쪽으로*/
+      margin-bottom: 20px; /*아래 요소와 간격*/
+      background-color: pink; /*배경색*/
+    }
+
+    footer{
+      border: 1px solid #222; /*테두리*/
+      clear: both; /*both는 왼쪽 오른쪽 전부 클리어할때 쓰는것*/
+      padding: 10px; /*안여백*/
+    }
+
+
+</style> 
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>사이트 제목</h1>
+    </header>
+    
+    <aside id="left">
+      <h3>왼쪽 사이드바</h3>
+      <p>광고1</p>
+      <p>광고2</p>
+    </aside>
+    
+    <section>
+      <h3>본문</h3>
+      <p>내용 입력1</p>
+      <p>내용 입력2</p>
+    </section>
+
+    <aside id="right">
+      <h3>오른쪽 사이드바</h3>
+      <p>광고1</p>
+      <p>광고2</p>
+    </aside>
+
+    <footer>
+      <h3>푸터영역</h3>
+      <p>저작권 정보, 연락처</p>
+    </footer>
+
+  </div>
+</body>
+</html>
